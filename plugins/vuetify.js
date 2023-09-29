@@ -12,7 +12,7 @@ const myCustomLightTheme = {
     // surface: '#FFFFFF',
     primary: '#162114',
     // 'primary-darken-1': '#d17766',
-    // secondary: '#03DAC6',
+    secondary: '#DE9E1A',
     // 'secondary-darken-1': '#018786',
     // error: '#B00020',
     // info: '#2196F3',

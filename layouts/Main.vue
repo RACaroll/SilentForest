@@ -1,7 +1,11 @@
 <template>
     <v-row class="bg-primary h-100 ma-0">
-        <v-col cols="12" class=" bg-left-top pa-0">
-
+        <v-col class=" bg-left-top ">
+            <v-row class="justify-center h-100 align-center">
+                <v-col>
+                    <slot name="content" />
+                </v-col>
+            </v-row>
         </v-col>
     </v-row>
 </template>

@@ -1,5 +1,9 @@
 <template>
-  <Home />
+  <Main>
+    <template v-slot:content>
+      <Home />
+    </template>
+  </Main>
 </template>
 <script setup>
 
