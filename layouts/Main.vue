@@ -7,6 +7,7 @@
 </template>
 <style scoped>
 .bg-left-top {
-    background-image: url(../assets/svg/border.svg);
+    background-image: url(../assets/svg/inomeado.svg);
+    background-size: cover;
 }
 </style>
