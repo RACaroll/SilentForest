@@ -20,7 +20,7 @@ const goTo = (route) => {
 }
 const start = () => {
     setTimeout(function() {
-        goTo('/random')
+        goTo('/perfil')
     }, 3000);
 };
 start();

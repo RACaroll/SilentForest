@@ -1,7 +1,7 @@
 <template>
     <Main>
         <template v-slot:content>
-            <Random />
+            <Menu />
         </template>
     </Main>
 </template>
