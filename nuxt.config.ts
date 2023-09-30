@@ -36,7 +36,7 @@ export default defineNuxtConfig({
       'process.env.DEBUG': false,    
     },  
   },
-  devtools: { enabled: true },
+  // devtools: { enabled: true },
   components: [
     {path: '~/components', extensions: ['.vue'], }, 
     {path: '~/layouts', extensions: ['.vue'], },

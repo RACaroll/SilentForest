@@ -21,12 +21,23 @@
       </v-row>
     </v-col>
     <v-col cols="12" class>
-      <v-btn rounded class="bg-secondary px-9 pb-12 text-h4 text-primary">
+      <v-btn 
+        rounded 
+        class="bg-secondary px-9 pb-12 text-h4 text-primary"
+        @click="goTo('/names')"
+      >
         INICIAR
       </v-btn>
     </v-col>
   </v-row>
 </template>
+<script setup>
+const router = useRouter();
+
+const goTo = (route) => {
+      router.push(route);
+  };
+</script>
 <style scoped>
 .bg-plants {
   height: 50vh;
