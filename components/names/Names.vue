@@ -123,7 +123,7 @@ const goTo = (route) => {
 const addPlayer = (operation) => {
     if(players.value.length < 4 && operation === 'Add') {
         const testName = players.value.indexOf('')
-        if(testName === -1) players.value.push('nome')
+        if(testName === -1) players.value.push('')
     };
     if(players.value.length > 2 && operation === 'Remove') {
         players.value.pop();

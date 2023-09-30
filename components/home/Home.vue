@@ -1,5 +1,5 @@
 <template>
-  <v-row class="text-center">
+  <v-row class="text-center pt-16">
     <v-col cols="12" class="px-6">
       <v-row class="justify-center align-center">
         <v-col cols="12" md="3" class="bg-plants pb-8">
@@ -20,7 +20,7 @@
         </v-col>
       </v-row>
     </v-col>
-    <v-col cols="12" class>
+    <v-col cols="12" class="mb-16">
       <v-btn 
         rounded 
         class="bg-secondary px-9 pb-12 text-h4 text-primary"
@@ -28,6 +28,13 @@
       >
         INICIAR
       </v-btn>
+    </v-col>
+  </v-row>
+  <v-row class="justify-center text-secondary pt-10">
+    <v-col cols="2" class="text-h5 pl-1 pt-16">
+      <span class="pt-16">
+        KaLu
+      </span>
     </v-col>
   </v-row>
 </template>
