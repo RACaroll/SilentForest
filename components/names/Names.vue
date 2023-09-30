@@ -1,6 +1,6 @@
 <template>
     <v-row class="justify-center text-center align-center">
-        <v-col cols="12" md="3">
+        <v-col cols="12" md="3" @click="goTo('/home')">
             <span class="text-secondary text">
                 Bem vindos a
             </span>
@@ -114,6 +114,11 @@ const rulesGame = ref([
     'Lorem ipsum dolor sit amet consectetur adipisicing elit. Non quam delectus, mollitia nostrum ea inventore at perferendis totam. Blanditiis rem libero voluptatem consequuntur quas aspernatur pariatur alias nobis dolore velit!'
 ])
 let rulesShow = ref(false)
+const router = useRouter();
+
+const goTo = (route) => {
+    router.push(route);
+}
 
 const addPlayer = (operation) => {
     if(players.value.length < 4 && operation === 'Add') {

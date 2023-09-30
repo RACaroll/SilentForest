@@ -35,7 +35,7 @@
 const router = useRouter();
 
 const goTo = (route) => {
-      router.push(route);
+    router.push(route);
   };
 </script>
 <style scoped>
