@@ -1,6 +1,10 @@
 import { resolve } from 'path'
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  server: {
+    host: '192.168..104',
+    port: 3000,
+  },
   app: {
     head: {
         titleTemplate: 'Silent Forest',

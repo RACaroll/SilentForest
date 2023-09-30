@@ -35,13 +35,15 @@
                         variant="outlined"
                     >
                         <template v-slot:append-inner>
-                            <v-icon color="white" @click="addPlayer('Remove')"> 
+                            <v-icon 
+                                color="white" 
+                                @click="players.length <= 2 ? players[i] = '' : addPlayer('Remove')"> 
                                 mdi-close
                             </v-icon>
                         </template>
                     </v-text-field>
                 </v-col>
-                <v-col cols="12" class="pt-0">
+                <v-col cols="12" class="pt-0" v-if="players.length < 4">
                     <v-btn 
                         variant="outlined" 
                         rounded 
