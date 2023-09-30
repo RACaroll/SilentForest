@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-primary">
+    <div class="bg-primary overflow-hidden">
         <v-row>
             <v-col class="d-flex justify-center align-center">
                 <img src="../assets/svg/oneSide.svg" class="pattern" alt="">
@@ -17,27 +17,16 @@
                 <img src="../assets/svg/oneSide.svg" class="pattern bottom-left" alt="">
             </v-col>
             <v-col class="d-flex justify-center align-end">
-                <span class="text-h5 yellow mb-8">KaLu</span>
+                <span class="text-h5 text-secondary mb-3">KaLu</span>
             </v-col>
             <v-col class="d-flex justify-center align-center">
                 <img src="../assets/svg/oneSide.svg" class="pattern bottom-right" alt="">                
             </v-col>
         </v-row>
     </div>
-    <!-- <div class="bg-primary">
-        <v-row class="pattern">
-            <img src="../assets/svg/nome.svg" class="pattern">
-        </v-row>
-        <v-row class="justify-center align-center">
-            <v-col class="contentSlot">
-                <slot name="content" />
-            </v-col>
-            </v-row>
-        <v-row class="pattern">
-            <img src="../assets/svg/nome.svg" class="pattern bottom">
-        </v-row>
-    </div> -->
 </template>
+<script setup>
+</script>
 <style scoped>
     * {
         margin: 0;
@@ -59,8 +48,5 @@
     }
     .bottom-right {
         transform: rotate(180deg);
-    }
-    .yellow {
-        color: #DE9E1A;
     }
 </style>
