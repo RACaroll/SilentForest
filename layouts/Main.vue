@@ -6,7 +6,7 @@
             </v-col>
             <v-col class="d-flex justify-center align-center">
                 <span class="text-secondary text mb-0 pa-0">
-                Caroll
+                    ??
                 </span>
             </v-col>
             <v-col class="d-flex justify-center align-center">
